@@ -46,19 +46,7 @@ port:             	 4000
 
 # Build settings
 highlighter:         pygments
-markdown:           redcarpet
-redcarpet:
-    extensions:
-     - Hard_wrap
-     - no_intra_emphasis
-     - strikethrough
-     - fenced_code_blocks
-     - autolink
-     - tables
-     - with_toc_data
-     - highlight
-     - footnotes
-    input:          GFM
+markdown:           kramdown
 sass:
     style:          :compressed
 paginate: 5
