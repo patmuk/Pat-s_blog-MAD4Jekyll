@@ -60,3 +60,6 @@ google_analytics:   UA-xxxxxxxx-x
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
+
+# Gems
+gems: [jekyll-paginate]
