@@ -2,7 +2,7 @@
 title: "HOME"
 description: Patrick Mukherjee's BLog
 logo: favicon.png
-discus_shortname: MADnessS
+discus_shortname: MADness
 header-img: img/home-bg.jpg
 email: patrick@mukherjee.de
 url: http://madforjekyll.github.io
@@ -32,7 +32,7 @@ github_username: patmuk
 flickr_username: patmuk
 #instagram_username: MAD4Jekyll
 
-
+ 
 # Internal nav
 nav:
  writing: "source_url/writing/"
@@ -44,9 +44,25 @@ nav:
 destination:      	 ./_site
 port:             	 4000
 
+#dependencies
+# Gems
+gems: [jekyll-paginate]
+
 # Build settings
 highlighter:         rouge
 markdown:           kramdown
+kramdown:
+    extensions:     
+     - Hard_wrap
+#     - no_intra_emphasis
+#     - strikethrough
+#     - fenced_code_blocks
+#     - autolink
+#     - tables
+#     - with_toc_data
+#     - highlight
+#     - footnotes
+    input:          GFM
 sass:
     style:          :compressed
 paginate: 5
@@ -57,9 +73,6 @@ slugify: "pretty"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-xxxxxxxx-x
-google_verify:
+google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Gems
-gems: [jekyll-paginate]
+bing_verify:         
