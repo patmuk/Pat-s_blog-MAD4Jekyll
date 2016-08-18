@@ -1,5 +1,5 @@
 # Site settings
-title: "HOME"
+title: "<h4>Patrick Mukherjee</h4><h5>Dr.Ing.</h5>"
 description: Patrick Mukherjee's BLog
 logo: favicon.png
 discus_shortname: MADness
@@ -10,7 +10,6 @@ assets:
   js: assets/libs/js
   my: assets/my
 header-img: img/home-bg.jpg
-email: patrick@mukherjee.de
 share: true
 comments: true
 
@@ -23,6 +22,7 @@ wpm: 200
 # Owner/author information
 owner:
   name:   Patrick Mukherjee
+  email: patrick@mukherjee.de
   avatar: avatar.jpg
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    MAD for Jekyll
