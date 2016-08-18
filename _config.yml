@@ -3,10 +3,14 @@ title: "HOME"
 description: Patrick Mukherjee's BLog
 logo: favicon.png
 discus_shortname: MADness
+pagesdir: pages
+assets:
+  MADforJekyll: assets/libs/MADforJekyll
+  libs: assets/libs
+  js: assets/libs/js
+  my: assets/my
 header-img: img/home-bg.jpg
 email: patrick@mukherjee.de
-url: http://madforjekyll.github.io
-search: true
 share: true
 comments: true
 
@@ -32,12 +36,11 @@ github_username: patmuk
 flickr_username: patmuk
 #instagram_username: MAD4Jekyll
 
- 
-# Internal nav
+# nav menu order
 nav:
- writing: "source_url/writing/"
- gallery: "source_url/gallery/"
- about: "source_url/about/"
+  - Writing
+  - Gallery
+  - About
 
 
 # Server
@@ -46,13 +49,14 @@ port:             	 4000
 
 #dependencies
 # Gems
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
 
 # Build settings
 highlighter:         rouge
 markdown:           kramdown
 kramdown:
-    extensions:     
+    extensions:
      - Hard_wrap
 #     - no_intra_emphasis
 #     - strikethrough
@@ -66,13 +70,13 @@ kramdown:
 sass:
     style:          :compressed
 paginate: 5
-paginate_path: "/writing/page:num/"
-permalink: "/writing/:title/"
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate_path: "pages/writing/page:num/"
+#permalink: "pages/writing/:title/"
+exclude: ["assets/libs/MADforJekyll/less","node_modules","Gruntfile.js","package.json","README.md"]
 slugify: "pretty"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-xxxxxxxx-x
-google_verify:      
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
