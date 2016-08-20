@@ -1,14 +1,16 @@
 # Site settings
 title: "<h4>Patrick Mukherjee</h4><h5>Dr.Ing.</h5>"
 description: Patrick Mukherjee's BLog
-logo: favicon.png
-discus_shortname: MADness
+#file locations
+baseurl:
 pagesdir: pages
 assets:
   MADforJekyll: assets/libs/MADforJekyll
   libs: assets/libs
   js: assets/libs/js
   my: assets/my
+logo: favicon.png
+discus_shortname: MADness
 header-img: img/home-bg.jpg
 share: true
 comments: true
