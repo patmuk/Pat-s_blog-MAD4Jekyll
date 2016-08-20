@@ -2,7 +2,7 @@
 title: "<h4>Patrick Mukherjee</h4><h5>Dr.Ing.</h5>"
 description: Patrick Mukherjee's BLog
 #file locations
-baseurl:
+baseurl: /Pat-s_blog
 pagesdir: pages
 assets:
   MADforJekyll: assets/libs/MADforJekyll
